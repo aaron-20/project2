@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+}
+
+.container {
+    background-color: #2b2b2b;
+}
+
+.container ul {
+    list-style-type: none;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container ul a {
+    text-decoration: none;
+}
+
+.container ul a li {
+    color: white;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: #2b2b2b;
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
